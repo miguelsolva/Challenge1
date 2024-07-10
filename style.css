@@ -1,0 +1,340 @@
+main{
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;    
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+
+.logo {
+    width: 120px;
+    height: 48px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.Rectangulo1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 83%;
+    left: 60%;
+    top: 5%;
+    background: white;
+    box-shadow: 0px 24px 32px 8px rgba(0, 0, 0, .08);
+    border-radius: 32px;
+}
+
+.caja3{
+  width: 577px;
+  height: 48px;
+  top: 168px;
+  left: 40px;
+  position: absolute;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0A3871; 
+}
+.ContenedordeTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+}
+
+.ContenedordeTexto h2{
+    width: 80%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #495057;
+}
+
+.ContenedordeTexto p{
+    width: 336px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #495057;
+}
+
+.Rectangulo1 img{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
+.copiar{
+  display: inline-block;
+  margin-right: 25px;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 8px;
+  width: 20%;
+  background-color: #0a3871;
+  border-radius: 24px;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+.Rectangulo2 {
+    width: 577px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+}
+
+.texto {
+    width: 577px;
+    height: 48px;
+    top: 168px;
+    left: 200px;
+    position: absolute;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;   
+}
+
+.texto::placeholder{
+    color: #0a3871;
+  }
+  
+  .texto:focus, .texto:active{
+    border: none;
+    outline: none;
+  }
+  .indicaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 80%;
+  }
+  
+  .indicaciones p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 80%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 82%;
+  }
+  
+  .boton-encriptar{
+    display: inline-block;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 8px;
+    width: 20%;
+    background-color: #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .boton-desencriptar{
+    box-sizing: border-box;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1%;
+    gap: 8px;
+    width: 20%;
+    background-color:#d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400 ;
+    line-height: 19px;
+    text-align: center;
+    color:  #0a3871;   
+  }
+  
+  .boton-desencriptar:hover, 
+  .boton-encriptar:hover, .copiar:hover{
+    margin: .3%;
+    width: 23%;
+    padding: 1%;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #082549;
+    background-size: 100px auto;
+    height: auto;
+    position: absolute; 
+    top: 90%;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 20px 90px;
+}
+nav a {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+nav a:hover{
+  transition: 500ms;
+  font-size: 16px;
+  color: hsl(352, 94%, 47%);
+  text-decoration: underline;
+}
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+    .Rectangulo1 {
+        width: 30%;
+        left: 60%;
+    }
+}
+
+/* Estilos para tabletas y dispositivos de tamaño mediano */
+@media only screen and (max-width: 1023px) {
+    .Rectangulo1 {
+        width: 50%;
+        left: 25%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 16px;
+    }
+    .ContenedordeTexto p {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .Rectangulo1 {
+        width: 80%;
+        left: 10%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 14px;
+    }
+    .ContenedordeTexto p {
+        width: 90%;
+        font-size: 12px;
+    }
+    .logo {
+        width: 80px;
+        height: 32px;
+        top: 20px;
+        left: 20px;
+    }
+    .caja3 {
+        width: auto;
+        font-size: 24px;
+    }
+    .Rectangulo2 {
+        width: auto;
+    }
+    .texto {
+        width: auto;
+        font-size: 24px;
+    }
+    .botones {
+        width: 90%;
+        left: 5%;
+        top: 85%;
+    }
+    .indicaciones {
+        width: 90%;
+        left: 5%;
+        top: 75%;
+    }
+    footer {
+        top: 95%;
+    }
+}
+
+/* Estilos adicionales para dispositivos muy pequeños, como teléfonos con pantallas pequeñas */
+@media only screen and (max-width: 479px) {
+    .Rectangulo1 {
+        width: 90%;
+        left: 5%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 12px;
+    }
+    .ContenedordeTexto p {
+        width: 95%;
+        font-size: 10px;
+    }
+}

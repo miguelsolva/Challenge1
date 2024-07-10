@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo">
+            <h1><img src="imagenes/Logo.png" alt="Logo de alura"></h1>
+        </div>
+        <main>
+            <div class="Rectangulo1">
+                <img src="imagenes/Muñeco.png" alt="imagen de Muñeco" id="imagenMuñeco">
+                <p1 id="caja3" class="caja3"></p1>
+                    <div class="ContenedordeTexto" id="ContenedordeTexto">
+                        <h2 id="caja1">Ningún mensaje fue encontrado.</h2>
+                        <p id="caja2">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                        <button id="copiar" class="copiar" onclick="botonCopiar()">Copiar</button>
+                    </div>
+            </div>
+            <div class="Rectangulo2">
+                <div class="textoOriginal">
+                    <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto a encriptar"></textarea>
+                </div>
+                <div class="indicaciones">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.508 6.508 0 0 0 8 1.5zm-.25 3.414a.75.75 0 0 1 1.5 0v5.672a.75.75 0 0 1-1.5 0V4.914zM8 11a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                    <p>Solo ingresa letra minusculas y sin simbolos especiales.</p> 
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+                </div>
+
+            </div>
+        </main>
+        <footer id="pie">
+            <div class="footer">
+                <p class="copyright">&copy ALURA LATAM - Alfredo Ramirez - 2024</p>
+                    <nav >
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/alfredo-ram%C3%ADrez-b52b01251/">LinkedIn</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </footer>
+        <script src="index.js" defer></script>
+    </body>
+</html>
+
+
+
